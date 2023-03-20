@@ -1,0 +1,358 @@
+/*var*/
+:root {
+  --blue: navy;
+  --green: rgb(145, 231, 231);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--green);
+}
+
+/* main logo / nav */
+.header {
+  margin-top: -8px;
+  margin-left: -1%;
+  width: 100%;
+  position: absolute;
+  background-color: darkslategray;
+}
+
+#name {
+  font-size: xx-large;
+  margin-top: 21px;
+  width: 15%;
+  border-radius: 7px;
+  margin-left: 20px;
+  background-color: var(--green);
+}
+
+
+
+.info {
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: x-large;
+}
+
+.info a:link {
+
+  color: var(--green);
+  margin-right: 15px;
+}
+
+.info a:visited {
+  color: var(--green);
+}
+
+/* hero banner */
+.hero-banner {
+  height: 20%;
+  margin-left: -1%;
+  margin-top: 10px;
+  width: 100%;
+  background-image: url(../images/one_1.jpeg);
+  margin-top: 119px;
+  position: absolute;
+
+}
+
+.hero-banner h2 {
+  margin-top: 60px;
+  margin-left: 75%;
+  width: 16%;
+  border-radius: 7px;
+  background-color: var(--green);
+  color: black;
+}
+
+
+/* about me */
+.page-wrapper {
+  position: absolute;
+  margin-top: 25%;
+  width: 100%;
+}
+
+#about.page-section {
+  width: 60%;
+  column-count: 2;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  gap: 50px;
+  padding-bottom: 20px;
+
+}
+
+#about.page-section h2 {
+  text-align: right;
+  font-size: 60px;
+  font-weight: 200;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 70%;
+  color: var(--blue);
+}
+
+#about.page-section p {
+  width: 950px;
+  text-align: justify;
+  margin-right: 10%;
+  float: left;
+}
+
+/* work */
+#work.page-section {
+  width: 60%;
+  column-count: 2;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  gap: 50px;
+  padding-bottom: 20px;
+  margin-top: 2%;
+
+}
+
+#work.page-section h2 {
+  text-align: right;
+  font-size: 60px;
+  font-weight: 200;
+  margin-left: 20%;
+  margin-top: 5%;
+  width: 70%;
+  color: var(--blue);
+}
+
+/*grid-container*/
+.grid-container {
+  height: 695px;
+  width: 950px;
+  display: grid;
+  margin-top: 670px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "surfReport surfReport"
+    "ledWall calculator"
+    "pastelPuzzells runBuddy";
+  gap: 5px;
+  background-color: rgb(24, 153, 179);
+  padding: 10px;
+}
+
+.test1 {
+  background-color: var(--green);
+  border-radius: 10px;
+  margin-top: 50px;
+  height: 40%;
+  width: 35%;
+  border: 2px solid var(--blue);
+  padding: 2px;
+  font-size: 14px;
+}
+
+.test1:hover {
+  background-color: rgb(26, 166, 166);
+  border-radius: 5%;
+}
+
+#surfReport {
+  grid-area: surfReport;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  border-radius: 20px;
+  background-image: url(../images/one_7.webp);
+
+}
+
+
+#ledWall {
+  grid-area: ledWall;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100px;
+  margin: 5px;
+  height: 200px;
+  border-radius: 20px;
+  background-image: url(../images/one_4.jpeg)
+}
+
+#calculator {
+  grid-area: calculator;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  height: 200px;
+  border-radius: 20px;
+  background-image: url(../images/one_3.jpeg)
+}
+
+#pastelPuzzells {
+  grid-area: pastelPuzzells;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  height: 200px;
+  border-radius: 20px;
+  background-image: url(../images/image_3.jpeg)
+}
+
+#runBuddy {
+  grid-area: runBuddy;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  height: 200px;
+  border-radius: 20px;
+  background-image: url(../images/one_6.gif);
+}
+
+
+/*contact*/
+#contact.page-section {
+  width: 60%;
+  margin-top: 30px;
+  column-count: 2;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  gap: 50px;
+  margin-top: 2%;
+  padding-bottom: 20px;
+}
+
+#contact.page-section a:hover {
+  background-color: rgb(26, 166, 166);
+  border-radius: 5%;
+
+}
+
+#contact.page-section a {
+  color: var(--blue);
+}
+
+#contact.page-section h2 {
+  text-align: right;
+  font-size: 60px;
+  font-weight: 200;
+  margin-left: 20%;
+  margin-top: 0%;
+  width: 70%;
+  color: var(--blue);
+}
+
+#contactelement {
+  width: 950px;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(23, 132, 128);
+  margin-right: 15px;
+  margin-top: 5%;
+  word-spacing: 50px;
+}
+
+/*media queries*/
+@media screen and (min-width: 768px) {
+  .page-wrapper {
+    position: absolute;
+    margin-top: 25%;
+    width: 100%;
+  }
+
+  .header {
+    margin-top: -8px;
+    margin-left: -1%;
+    width: 100%;
+    position: absolute;
+    background-color: darkslategray;
+  }
+
+  .hero-banner {
+    height: 20%;
+    margin-left: -1%;
+    margin-top: 10px;
+    width: 100%;
+    background-image: url(../images/one_1.jpeg);
+    margin-top: 119px;
+    position: absolute;
+
+  }
+
+  .info {
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: x-large;
+  }
+
+  .info a:link {
+
+    color: var(--green);
+    margin-right: 15px;
+  }
+
+  .info a:visited {
+    color: var(--green);
+  }
+
+  .page-wrapper:last-child {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    width: 100%;
+  }
+
+  .header {
+    margin-top: -8px;
+    margin-left: -1%;
+    width: 100%;
+    position: absolute;
+    background-color: darkslategray;
+  }
+
+  .info {
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: x-large;
+  }
+
+  .info a:link {
+
+    color: var(--green);
+    margin-right: 15px;
+  }
+
+  .info a:visited {
+    color: var(--green);
+  }
+
+  .hero-banner {
+    height: 20%;
+    margin-left: -1%;
+    margin-top: 10px;
+    width: 100%;
+    background-image: url(../images/one_1.jpeg);
+    margin-top: 119px;
+    position: absolute;
+
+  }
+
+  .page-wrapper {
+    position: absolute;
+    margin-top: 25%;
+    width: 100%;
+  }
+}
