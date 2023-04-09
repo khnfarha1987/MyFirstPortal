@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/*body-section*/
 body {
   width: auto;
   font-family: 'Poppins', sans-serif;
@@ -15,6 +16,8 @@ body {
 }
 
 /* main logo / nav */
+
+/* header-section*/
 .header {
   margin-top: -8px;
   margin-left: -1%;
@@ -24,6 +27,7 @@ body {
 
 }
 
+/* avatar */
 #name {
   font-size: xx-large;
   margin-top: 21px;
@@ -41,9 +45,7 @@ body {
   border-radius: 50%;
 }
 
-
-
-
+/*information*/
 .info {
   margin-bottom: 20px;
   text-align: right;
@@ -60,7 +62,9 @@ body {
   color: var(--green);
 }
 
-/* hero banner */
+/* hero banner-section */
+
+/* hero-banner */
 .hero-banner {
   height: 20%;
   margin-left: -1%;
@@ -82,13 +86,14 @@ body {
 }
 
 
-/* about me */
+/* page-wrapper */
 .page-wrapper {
   position: absolute;
   margin-top: 25%;
   width: 100%;
 }
 
+/* about me */
 #about.page-section {
   width: 60%;
   column-count: 2;
@@ -155,7 +160,8 @@ body {
   padding: 10px;
 }
 
-.test1 {
+/*grid-section*/
+.grid-section {
   background-color: var(--green);
   border-radius: 10px;
   margin-top: 50px;
@@ -164,13 +170,15 @@ body {
   border: 2px solid var(--blue);
   padding: 2px;
   font-size: 14px;
+  color: black;
 }
 
-.test1:hover {
+.grid-section:hover {
   background-color: rgb(26, 166, 166);
   border-radius: 5%;
 }
 
+/* SurfReport */
 #surfReport {
   grid-area: surfReport;
   background-position: center;
@@ -182,7 +190,7 @@ body {
 
 }
 
-
+/* ledWall */
 #ledWall {
   grid-area: ledWall;
   background-position: center;
@@ -195,6 +203,7 @@ body {
   background-image: url(../images/one_4.jpeg)
 }
 
+/* calculator */
 #calculator {
   grid-area: calculator;
   background-position: center;
@@ -206,6 +215,7 @@ body {
   background-image: url(../images/one_3.jpeg)
 }
 
+/* PastelPuzzells */
 #pastelPuzzells {
   grid-area: pastelPuzzells;
   background-position: center;
@@ -217,6 +227,7 @@ body {
   background-image: url(../images/image_3.jpeg)
 }
 
+/* RunBuddy */
 #runBuddy {
   grid-area: runBuddy;
   background-position: center;
@@ -229,7 +240,7 @@ body {
 }
 
 
-/*contact*/
+/*contact-section*/
 #contact.page-section {
   width: 60%;
   margin-top: 30px;
